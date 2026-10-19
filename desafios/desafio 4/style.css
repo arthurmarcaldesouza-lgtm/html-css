@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "IDroid";
+    src: url("fontes/idroid.otf") format(opentype);
+}
+
+
+body{
+    margin: 0px;
+    background-color: #84E1AD;
+}
+
+header{
+  background-image: linear-gradient(to top, #34B86F, rgba(2, 167, 2, 0.76));
+  color: white;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.329);
+   text-align: center;
+   font-size: 20px;
+    padding: 50px 50px;
+    margin: 0px;
+
+}
+
+header p{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 10px;
+}
+
+main img{
+    width: 100%;
+}
+
+
+#navegacao{
+   text-align: left;
+    position: absolute;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-top: 20px;
+}
+
+#navegacao a{
+    padding: 1px 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navegacao>a:hover{
+   text-decoration: underline;
+}
+
+
+section{
+    font-family: "IDroid";
+    font-size: 20px;
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+#historia{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.marcacao{
+    color: #518367;
+}
+
+#versao1{
+    text-align: left;
+    font-size: 30px;
+    background-image: linear-gradient(to right, #A9EAC6, white );
+}
+
+.tentativa{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 10px;
+}
+
+
+a.link{
+    color: darkgreen;
+    background-color: #83E1AD;
+    text-decoration: none;
+}
+
+a.link:hover{
+    text-decoration: underline;
+}
+
+#robo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 10px;
+}
+
+.mascote{
+     background-image: linear-gradient(to right, #A9EAC6, white );
+     font-size: 30px;
+}
+
+#ilustradora{
+    width: 100%;
+    max-width: 1000px;
+}
+
+#Bugdroid{
+   display: block;
+   margin: 0 auto;
+   max-width: 350px;
+}
+
+.video{
+    background-color: #063D1E;
+    padding: 30px;
+}
+
+.video iframe{
+    display: block;
+    width: 100%;
+}
+
+.terminando{
+    background-color: #1A5C37;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    padding: 1%;
+}
+
+.titulo-caixa{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1b5e3b;
+    color: white;
+    padding: 10px;
+    margin: 30px 0 0 0;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.caixa{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #86e0b0;
+    padding: 10px;
+    margin: 0 0 30px 0;
+    border-radius: 0 0 15px 15px;
+}
+
+.caixa p{
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-indent: 30px;
+}
+
+.versoes{
+    columns: 2;
+    list-style: none;
+    padding: 0;
+}
+
+.versoes li::before{
+    content: "✔ ";
+}
+
+#final{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{    
+    background-color: #063b1d;
+    margin: 0px;
+    margin-top: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+}
+
+
+
+#rodape{
+     background-color: #063b1d;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding: 8px 0;
+}
