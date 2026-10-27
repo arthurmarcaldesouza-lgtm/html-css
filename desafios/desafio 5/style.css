@@ -27,6 +27,7 @@ header{
     padding-top: 20px;
 }
 
+
 header p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
@@ -45,8 +46,64 @@ p>a:hover{
 }
 
 #primeira_parte{
-    font-family: "paragrafos", Arial, Helvetica, sans-serif;
-    font-size: 31px;
+    font-family: "paragrafos",Arial, Helvetica, sans-serif;
     margin-left: 50px;
+    font-size: 31px
+}
 
+#segunda_parte{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 31px;
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;    
+}
+
+#terceira_parte{
+    font-family: "paragrafos",Arial, Helvetica, sans-serif;
+     margin-left: 50px;
+    padding: 10px;
+    font-size: 31px
+}
+
+
+#quarta_parte{
+  font-family: "paragrafos",Arial, Helvetica, sans-serif;
+  font-size: 31px;
+   margin-left: 50px;
+}
+
+#quinta_parte{
+    font-family: "paragrafos",Arial, Helvetica, sans-serif;
+    font-size: 31px;
+     margin-left: 50px;
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+}
+
+#sexta_parte{
+   font-family: "paragrafos",Arial, Helvetica, sans-serif;
+   font-size: 31px;
+     margin-left: 50px;
+    padding: 10px;
+}
+
+
+#setima_parte{
+   font-family: "paragrafos",Arial, Helvetica, sans-serif;
+   font-size: 31px;
+     margin-left: 50px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
