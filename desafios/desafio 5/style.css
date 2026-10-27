@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "titulo-cordel";
+    src: url(fontes/PassionOne-Bold.ttf);
+}
+
+@font-face {
+    font-family: "paragrafos";
+    src: url(fontes/Sriracha-Regular.ttf);
+}
+
+
+
+*{
+    margin: 0px;
+}
+
+header{
+    font-family: "titulo-cordel", Arial, Helvetica, sans-serif;
+     font-size: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+p a{
+    font-family: Helvetica, sans-serif;
+    font-size: 26px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+p>a:hover{
+    text-decoration: underline;
+}
+
+#primeira_parte{
+    font-family: "paragrafos", Arial, Helvetica, sans-serif;
+    font-size: 31px;
+    margin-left: 50px;
+
+}
